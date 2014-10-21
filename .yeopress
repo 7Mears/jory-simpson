@@ -1,0 +1,16 @@
+{
+	"wpVer": "4.0",
+	"url": "http://www.jorysimpson.com",
+	"tablePrefix": "wp_",
+	"dbHost": "localhost",
+	"dbName": "jsim_db",
+	"dbUser": "endboss",
+	"dbPass": "xadnx212",
+	"git": true,
+	"submodule": false,
+	"customDirs": false,
+	"installTheme": false,
+	"wpDir": ".",
+	"contentDir": "wp-content",
+	"saltKeys": "define('AUTH_KEY',         'uNDp26xu*[.G=r31B%}B>V|&D:]V>`Zt?S!Jeoq +Sw+>o|j!<yZrYHPof=Q+8cV');\ndefine('SECURE_AUTH_KEY',  '<syt/$n0$yX!fB7q:cgqCL:yCWCI&[gwp2!-S.&F4wn&?]e2pG0E !WiU-:$F7<g');\ndefine('LOGGED_IN_KEY',    'jF1grSP/#`^lMY(2Ofvcj(S5e4<RjlnLgs_WuJMfe$NK^%z-Y+zhBB_JV0>& GOB');\ndefine('NONCE_KEY',        'wf(+^O+2wR8iYCELd|!3 t}2zZKhmq+MRPBa*w!WM3>YVy8C>8`e-uy[e=K}y0<e');\ndefine('AUTH_SALT',        'b09LC|{cAC(0zAuu^ocT|H_|ZPD2xT*AoQ37H|#1FZ8DVR=!Tw^4Z]zX;npUVC}b');\ndefine('SECURE_AUTH_SALT', ':Hu%V>PGUJ8W?Lim_Si,ZOr/x~>n<bsZS~^cQ)w/*z0}c0lQwSi6+|gDDUgeM:M*');\ndefine('LOGGED_IN_SALT',   '3cG7]OshH{@^@%3bkV2NS;r&|=IJ|k{)&+-dFmL_2T*o(^(?!eFk4a]@) 5=%,dL');\ndefine('NONCE_SALT',       'EveCp~BYZg!?Bly^$t@%,-lt6k(4Z)7voCmlZa[D~{tiS1-m2n-xl8_[RvYXs0Ag');\n"
+}
