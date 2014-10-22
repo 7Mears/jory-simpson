@@ -1,4 +1,4 @@
-# As Yeoman assumes the usage of Bower and Grunt, ignore the below:
+﻿# As Yeoman assumes the usage of Bower and Grunt, ignore the below:
 bower_components
 node_modules
 
@@ -33,4 +33,5 @@ wp-content/cache/
 wp-content/uploads/
 wp-content/upgrade/
 wp-content/wp-cache-config.php
+wp-config.php
 
