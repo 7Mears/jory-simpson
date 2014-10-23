@@ -1337,13 +1337,55 @@ li.comment {
 	margin-bottom: 0;
 }
 
-/* # Theme
+/* # Jory Simpson Theme
 ---------------------------------------------------------------------------------------------------- */
+/*
+Global
+*/
 
 
-/* Colors */
+/* ## Front Page
+--------------------------------------------- */
+/*
+ Header and Navigation
+*/
+
+
+/*
+Hero Section
+*/
+
+.hero-section {
+	height: 300px;
+}
+
+/*
+Portfolio Section
+*/
+
+
+/* ## Portfolio Page
+--------------------------------------------- */
+
+
+/* ## Contact Page
+--------------------------------------------- */
+
+
+/* ## Color
+--------------------------------------------- */
 .site-header {
-	background-color: #4F4A42;
+	background: #4F4A42;
+}
+
+.hero-section {
+	background: #3A3F3C;
+}
+
+.site-header,
+.site-header a,
+.hero-section {
+	color: #EEEFF7;
 }
 
 /* # Media Queries
