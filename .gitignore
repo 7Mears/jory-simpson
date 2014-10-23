@@ -35,9 +35,4 @@ wp-content/upgrade/
 wp-content/wp-cache-config.php
 sp-config.php
 
-
-#MacFiles
-.DS_Store
- 
-
 wp-config.php
