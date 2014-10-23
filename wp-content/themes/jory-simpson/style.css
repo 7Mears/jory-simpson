@@ -1356,13 +1356,15 @@ Hero Section
 */
 
 .hero-section {
-	height: 300px;
+	height: 100px;
 }
 
 /*
 Portfolio Section
 */
-
+.portfolio-section article {
+	display: inline-block;
+}
 
 /* ## Portfolio Page
 --------------------------------------------- */
