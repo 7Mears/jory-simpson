@@ -873,11 +873,11 @@ img.alignright,
 
 .site-header {
 	background-color: #fff;
-	min-height: 160px;
+	min-height: 90px;
 }
 
 .site-header .wrap {
-	padding: 40px 0;
+	padding: 10px 0;
 }
 
 /* ## Title Area
@@ -1269,7 +1269,6 @@ li.comment {
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-	background-color: #333;
 	clear: both;
 	padding-top: 40px;
 }
@@ -1356,7 +1355,13 @@ Hero Section
 */
 
 .hero-section {
-	height: 100px;
+	height: 300px;
+}
+
+.hero-section .textwidget {
+	padding: 100px 0;
+	text-align: center;
+	margin: 0 200px;
 }
 
 /*
@@ -1364,7 +1369,44 @@ Portfolio Section
 */
 .portfolio-section article {
 	display: inline-block;
+	position: relative;
+	height: 450px;
+	width: 380px;
+	box-shadow: 0 10px 25px rgba(0,0,0,.70);
 }
+
+.portfolio-section {
+	margin-top: -120px;
+}
+
+.portfolio-section article:nth-child(2) {
+	margin: 0 20px;
+}
+
+
+.portfolio-section .entry-image,
+.portfolio-section .entry-title {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	text-align: center;
+
+
+}
+
+.portfolio-image .entry-image img{
+	top: 0;
+	background-size:cover !important;
+x
+}
+
+.portfolio-section .entry-title{
+	top: 50%;
+}
+
+
+
 
 /* ## Portfolio Page
 --------------------------------------------- */

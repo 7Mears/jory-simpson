@@ -51,8 +51,3 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Portfolio Section', 'jsim' ),
 	'description' => __( 'This is the fourth section of the home page.', 'jsim' ),
 ) );
-genesis_register_sidebar( array(
-	'id'          => 'about-section',
-	'name'        => __( 'About Section', 'jsim' ),
-	'description' => __( 'This is the second section of the home page.', 'jsim' ),
-) );
