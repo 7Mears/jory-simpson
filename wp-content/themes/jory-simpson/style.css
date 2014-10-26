@@ -691,7 +691,7 @@ th {
 
 .entry-title a,
 .sidebar .widget-title a {
-	color: #333;
+	color: #fff;
 }
 
 .entry-title a:hover {
@@ -1394,8 +1394,8 @@ Portfolio Section
 
 .portfolio-section .entry-header {
 	color: #FFF;
-	background-color: rgba(59, 63, 61, 0.5);
-	/*height: 100%;*/
+	background-color: rgba(59, 63, 61, 0.9);
+	height: 100%;
 	top: 0;
 }
 
@@ -1405,7 +1405,14 @@ Portfolio Section
 }
 
 .portfolio-section .entry-content {
-	color: #FFF;
+	top: 25%;
+	padding: 25px;
+}
+
+.portfolio-section .entry-content .more-link {
+	display: block;
+	text-align: center;
+	bottom: 0;
 }
 
 /* ## Portfolio Page
@@ -1427,7 +1434,8 @@ Portfolio Section
 .site-header,
 .site-header a,
 .hero-section,
-article a:active {
+article a:active,
+.portfolio-section .entry-content {
 	color: #EEEFF7;
 }
 
