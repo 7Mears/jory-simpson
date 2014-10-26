@@ -1376,6 +1376,7 @@ Portfolio Section
 	margin: 20px 0;
 	float: left;
 	position: relative;
+	border-radius: 5px;
 	box-shadow: 0 10px 25px rgba(0, 0, 0, .70);
 }
 
@@ -1386,6 +1387,7 @@ Portfolio Section
 .portfolio-section .entry-image,
 .portfolio-section .entry-header,
 .portfolio-section .entry-content {
+	border-radius: 5px;
 	width: 100%;
 	left: 0;
 	position: absolute;
@@ -1417,6 +1419,16 @@ Portfolio Section
 	display: block;
 }
 
+.portfolio-section .entry-content,
+.portfolio-section .entry-header {
+	opacity: 0;
+	transition: 0.4s ease-out;
+}
+.portfolio-section .entry-content:hover ,
+.portfolio-section .entry-header:hover {
+	opacity: 1;
+	transition: 0.4s ease-out;
+}
 
 /* ## Portfolio Page
 --------------------------------------------- */
@@ -1461,7 +1473,7 @@ article a:active,
 	.content{
 		width: 620px;
 	}
-        
+
 	.sidebar-content-sidebar .content,
 	.sidebar-sidebar-content .content,
 	.content-sidebar-sidebar .content {
@@ -1522,7 +1534,7 @@ article a:active,
 
 	.genesis-nav-menu,
 	.site-description,
-	
+
 	.site-header .search-form
 	 {
 		text-align: center;
