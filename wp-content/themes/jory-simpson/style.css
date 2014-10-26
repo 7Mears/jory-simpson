@@ -691,7 +691,7 @@ th {
 
 .entry-title a,
 .sidebar .widget-title a {
-	color: #333;
+	color: #fff;
 }
 
 .entry-title a:hover {
@@ -805,7 +805,6 @@ img.alignright,
 --------------------------------------------- */
 
 .featured-content .entry {
-	border-bottom: 2px solid #f5f5f5;
 	margin-bottom: 20px;
 	padding: 0 0 24px;
 }
@@ -1374,17 +1373,19 @@ Portfolio Section
 .portfolio-section article {
 	height: 450px;
 	width: 380px;
+	margin: 20px 0;
 	float: left;
 	position: relative;
 	box-shadow: 0 10px 25px rgba(0, 0, 0, .70);
 }
 
 .portfolio-section article:nth-child(3n + 2) {
-	margin: 0 20px;
+	margin: 20px;
 }
 
 .portfolio-section .entry-image,
-.portfolio-section .entry-header {
+.portfolio-section .entry-header,
+.portfolio-section .entry-content {
 	width: 100%;
 	left: 0;
 	position: absolute;
@@ -1396,15 +1397,26 @@ Portfolio Section
 }
 
 .portfolio-section .entry-header {
-	background-color: rgba(59, 63, 61, 0.5);
-	height: 50px;
-	bottom: 0;
+	color: #FFF;
+	background-color: rgba(59, 63, 61, 0.9);
+	height: 100%;
+	top: 0;
 }
 
 .portfolio-section .entry-title {
-	padding: 12.5px;
+	padding: 25px;
 	text-align: center;
 }
+
+.portfolio-section .entry-content {
+	top: 25%;
+	padding: 25px;
+}
+
+.portfolio-section .entry-content .more-link {
+	display: block;
+}
+
 
 /* ## Portfolio Page
 --------------------------------------------- */
@@ -1424,7 +1436,9 @@ Portfolio Section
 
 .site-header,
 .site-header a,
-.hero-section {
+.hero-section,
+article a:active,
+.portfolio-section .entry-content {
 	color: #EEEFF7;
 }
 
@@ -1464,7 +1478,10 @@ Portfolio Section
 	.footer-widgets-1 {
 		margin-right: 30px;
 	}
-
+	/* Portfolio section */
+	.portfolio-section article {
+		margin: 20px;
+	}
 }
 
 @media only screen and (max-width: 960px) {
@@ -1534,7 +1551,6 @@ Portfolio Section
 @media only screen and (max-width: 800px) {
 
 	body {
-		background-color: #fff;
 		font-size: 16px;
 	}
 
