@@ -1371,7 +1371,7 @@ Portfolio Section
 	width: 380px;
 	float: left;
 	position: relative;
-	box-shadow: 0 10px 25px rgba(0,0,0,.70);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, .70);
 }
 
 .portfolio-section article:nth-child(3n + 2) {
@@ -1379,19 +1379,26 @@ Portfolio Section
 }
 
 .portfolio-section .entry-image,
-.portfolio-section .entry-title {
-	position: absolute;
+.portfolio-section .entry-header {
 	width: 100%;
 	left: 0;
+	position: absolute;
+}
+
+.portfolio-section .entry-image {
+	height: 100%;
 	top: 0;
 }
 
-.portfolio-section .entry-title{
-	top: 50%;
-	text-align: center;
+.portfolio-section .entry-header {
+	background-color: rgba(59, 63, 61, 0.5);
+	height: 50px;
+	bottom: 0;
 }
-.portfolio-section .entry-image {
-	height: 100%;
+
+.portfolio-section .entry-title {
+	padding: 12.5px;
+	text-align: center;
 }
 
 /* ## Portfolio Page
