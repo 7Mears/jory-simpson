@@ -886,7 +886,8 @@ img.alignright,
 .title-area {
 	float: left;
 	padding: 10px 0;
-	width: 360px;
+	width: 100%;
+        text-align: center;
 }
 
 .header-full-width .title-area {
@@ -940,12 +941,16 @@ img.alignright,
 
 /* # Site Navigation
 ---------------------------------------------------------------------------------------------------- */
-
 .genesis-nav-menu {
 	clear: both;
 	font-size: 16px;
 	line-height: 1;
 	width: 100%;
+        text-align: center;
+}
+
+.site-header .widget-area{
+    width:100%;
 }
 
 .genesis-nav-menu .menu-item {
@@ -1439,11 +1444,10 @@ Portfolio Section
 		width: 740px;
 	}
 
-	.content,
-	.site-header .widget-area {
+	.content{
 		width: 620px;
 	}
-
+        
 	.sidebar-content-sidebar .content,
 	.sidebar-sidebar-content .content,
 	.content-sidebar-sidebar .content {
@@ -1453,8 +1457,7 @@ Portfolio Section
 	.footer-widgets-1,
 	.footer-widgets-2,
 	.footer-widgets-3,
-	.sidebar-primary,
-	.title-area {
+	.sidebar-primary{
 		width: 300px;
 	}
 
@@ -1482,9 +1485,7 @@ Portfolio Section
 	.sidebar-primary,
 	.sidebar-secondary,
 	.sidebar-sidebar-content .content,
-	.sidebar-sidebar-content .content-sidebar-wrap,
-	.site-header .widget-area,
-	.title-area {
+	.sidebar-sidebar-content .content-sidebar-wrap {
 		width: 100%;
 	}
 
@@ -1504,9 +1505,9 @@ Portfolio Section
 
 	.genesis-nav-menu,
 	.site-description,
-	.site-header .title-area,
-	.site-header .search-form,
-	.site-title {
+	
+	.site-header .search-form
+	 {
 		text-align: center;
 	}
 
