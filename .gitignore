@@ -8,7 +8,7 @@ node_modules
 
 # Ignore config
 local-config.php
-
+nbproject/
 
 # Operating system files
 .Spotlight-V100
