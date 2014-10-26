@@ -39,6 +39,10 @@ add_theme_support( 'custom-background' );
 //* Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
 
+//* Remove the footer
+ remove_action('genesis_footer', 'genesis_do_footer');
+ remove_action('genesis_footer', 'genesis_footer_markup_open', 5);
+ remove_action('genesis_footer', 'genesis_footer_markup_close', 15);
 
 //* Register widget areas
 genesis_register_sidebar( array(
