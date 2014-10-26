@@ -1369,17 +1369,19 @@ Portfolio Section
 .portfolio-section article {
 	height: 450px;
 	width: 380px;
+	margin: 20px 0;
 	float: left;
 	position: relative;
 	box-shadow: 0 10px 25px rgba(0, 0, 0, .70);
 }
 
 .portfolio-section article:nth-child(3n + 2) {
-	margin: 0 20px;
+	margin: 20px;
 }
 
 .portfolio-section .entry-image,
-.portfolio-section .entry-header {
+.portfolio-section .entry-header,
+.portfolio-section .entry-content {
 	width: 100%;
 	left: 0;
 	position: absolute;
@@ -1391,14 +1393,19 @@ Portfolio Section
 }
 
 .portfolio-section .entry-header {
+	color: #FFF;
 	background-color: rgba(59, 63, 61, 0.5);
-	height: 50px;
-	bottom: 0;
+	/*height: 100%;*/
+	top: 0;
 }
 
 .portfolio-section .entry-title {
 	padding: 12.5px;
 	text-align: center;
+}
+
+.portfolio-section .entry-content {
+	color: #FFF;
 }
 
 /* ## Portfolio Page
@@ -1419,7 +1426,8 @@ Portfolio Section
 
 .site-header,
 .site-header a,
-.hero-section {
+.hero-section,
+article a:active {
 	color: #EEEFF7;
 }
 
@@ -1461,7 +1469,10 @@ Portfolio Section
 	.footer-widgets-1 {
 		margin-right: 30px;
 	}
-
+	/* Portfolio section */
+	.portfolio-section article {
+		margin: 20px;
+	}
 }
 
 @media only screen and (max-width: 960px) {
@@ -1533,7 +1544,6 @@ Portfolio Section
 @media only screen and (max-width: 800px) {
 
 	body {
-		background-color: #fff;
 		font-size: 16px;
 	}
 
