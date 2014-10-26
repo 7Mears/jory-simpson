@@ -1368,15 +1368,11 @@ Hero Section
 Portfolio Section
 */
 .portfolio-section article {
-	display: inline-block;
-	position: relative;
 	height: 450px;
 	width: 380px;
+	float: left;
+	position: relative;
 	box-shadow: 0 10px 25px rgba(0,0,0,.70);
-}
-
-.portfolio-section {
-	margin-top: -120px;
 }
 
 .portfolio-section article:nth-child(3n + 2) {
@@ -1386,20 +1382,18 @@ Portfolio Section
 .portfolio-section .entry-image,
 .portfolio-section .entry-title {
 	position: absolute;
-	height: 100%;
 	width: 100%;
 	left: 0;
+	top: 0;
 	text-align: center;
-}
-
-.entry-image .attachment-post {
-	background-size: cover;
 }
 
 .portfolio-section .entry-title{
 	top: 50%;
 }
-
+.portfolio-section .entry-image {
+	height: 100%;
+}
 
 /* ## Portfolio Page
 --------------------------------------------- */
