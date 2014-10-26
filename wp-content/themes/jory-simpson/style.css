@@ -1405,12 +1405,13 @@ Portfolio Section
 
 .portfolio-section .entry-image {
 	height: 100%;
+	z-index: 1;
 	top: 0;
+	transition: 1s ease;
 }
 
 .portfolio-section .entry-header {
 	color: #FFF;
-	background-color: rgba(57, 57, 69, 0.9);
 	height: 100%;
 	top: 0;
 }
@@ -1429,15 +1430,8 @@ Portfolio Section
 	display: block;
 }
 
-.portfolio-section .entry-content,
-.portfolio-section .entry-header {
-	opacity: 0;
-	transition: 0.4s ease-out;
-}
-.portfolio-section .entry-content:hover ,
-.portfolio-section .entry-header:hover {
-	opacity: 1;
-	transition: 0.4s ease-out;
+.portfolio-section .entry-image:hover {
+	opacity: 0.1;
 }
 
 /* ## Portfolio Page
