@@ -1395,10 +1395,9 @@ Portfolio Section
 
 }
 
-.portfolio-image .entry-image img{
-	top: 0;
-	background-size:cover !important;
-x
+article .entry-image {
+	background-size: cover;
+
 }
 
 .portfolio-section .entry-title{
