@@ -1379,10 +1379,9 @@ Portfolio Section
 	margin-top: -120px;
 }
 
-.portfolio-section article:nth-child(2) {
+.portfolio-section article:nth-child(3n + 2) {
 	margin: 0 20px;
 }
-
 
 .portfolio-section .entry-image,
 .portfolio-section .entry-title {
@@ -1391,20 +1390,15 @@ Portfolio Section
 	width: 100%;
 	left: 0;
 	text-align: center;
-
-
 }
 
-article .entry-image {
+.entry-image .attachment-post {
 	background-size: cover;
-
 }
 
 .portfolio-section .entry-title{
 	top: 50%;
 }
-
-
 
 
 /* ## Portfolio Page
