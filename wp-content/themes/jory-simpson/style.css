@@ -70,6 +70,13 @@
 
 @import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
 
+@font-face {
+	font-family: LeagueGothic;
+	src: local('LeagueGothic-Regular'),
+		url("fonts/LeagueGothic-Regular.otf") format('truetype');
+	font-weight: normal;
+}
+
 
 /* # HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
@@ -232,7 +239,7 @@ h4,
 h5,
 h6 {
 	color: #333;
-	font-family: Lato, sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	line-height: 1.2;
 	margin: 0 0 10px;
@@ -1352,7 +1359,10 @@ Global
 /*
  Header and Navigation
 */
-
+.site-title {
+	font-family: 'LeagueGothic', sans-serif;
+	font-size: 48px;
+}
 
 /*
 Hero Section
@@ -1371,7 +1381,7 @@ Hero Section
 Portfolio Section
 */
 .portfolio-section article {
-	height: 450px;
+	height: 380px;
 	width: 380px;
 	margin: 20px 0;
 	float: left;
