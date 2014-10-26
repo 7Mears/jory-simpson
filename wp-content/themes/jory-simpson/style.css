@@ -136,7 +136,7 @@ input[type="search"] {
 --------------------------------------------- */
 
 body {
-	background-color: #f5f5f5;
+	background-color: #3A3F3C;
 	color: #333;
 	font-family: Lato, sans-serif;
 	font-size: 18px;
@@ -1355,13 +1355,12 @@ Hero Section
 */
 
 .hero-section {
-	height: 300px;
+	height: 100px;
 }
 
-.hero-section .textwidget {
-	padding: 100px 0;
+.hero-section p {
+	padding: 50px;
 	text-align: center;
-	margin: 0 200px;
 }
 
 /*
@@ -1385,11 +1384,11 @@ Portfolio Section
 	width: 100%;
 	left: 0;
 	top: 0;
-	text-align: center;
 }
 
 .portfolio-section .entry-title{
 	top: 50%;
+	text-align: center;
 }
 .portfolio-section .entry-image {
 	height: 100%;
@@ -1405,10 +1404,8 @@ Portfolio Section
 
 /* ## Color
 --------------------------------------------- */
-.site-header {
-	background: #4F4A42;
-}
 
+.site-header,
 .hero-section {
 	background: #3A3F3C;
 }
