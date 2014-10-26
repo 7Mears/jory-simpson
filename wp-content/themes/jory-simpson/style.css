@@ -1387,7 +1387,6 @@ Portfolio Section
 	float: left;
 	position: relative;
 	border-radius: 5px;
-	box-shadow: 0 10px 25px rgba(0, 0, 0, .70);
 }
 
 .portfolio-section article:nth-child(3n + 2) {
@@ -1407,7 +1406,10 @@ Portfolio Section
 	height: 100%;
 	z-index: 1;
 	top: 0;
-	transition: 1s ease;
+	transition: 0.4s ease;
+}
+.portfolio-section .entry-image:hover {
+	opacity: 0.1;
 }
 
 .portfolio-section .entry-header {
@@ -1426,13 +1428,6 @@ Portfolio Section
 	padding: 25px;
 }
 
-.portfolio-section .entry-content .more-link {
-	display: block;
-}
-
-.portfolio-section .entry-image:hover {
-	opacity: 0.1;
-}
 
 /* ## Portfolio Page
 --------------------------------------------- */
