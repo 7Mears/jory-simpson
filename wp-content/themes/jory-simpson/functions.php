@@ -56,6 +56,7 @@ genesis_register_sidebar( array(
 
 
 /**
+ * http://wordpress.stackexchange.com/questions/29881/stop-wordpress-from-hardcoding-img-width-and-height-attributes
  * This is a modification of image_downsize() function in wp-includes/media.php
  * we will remove all the width and height references, therefore the img tag
  * will not add width and height attributes to the image sent to the editor.
