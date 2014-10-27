@@ -1424,6 +1424,7 @@ Portfolio Section
 	font-size: 24px;
 	position: relative;
 }
+
 .portfolio-section .entry-title:before {
 	content: "";
 	position: absolute;
@@ -1503,6 +1504,12 @@ article a:active,
 
 	.footer-widgets-1 {
 		margin-right: 30px;
+	}
+
+	.portfolio-section article {
+		min-height: 400px;
+		width: 45%;
+		margin: 2.5%;
 	}
 
 }
@@ -1615,6 +1622,12 @@ article a:active,
 
 	.sidebar .widget.enews-widget {
 		padding: 40px;
+	}
+
+	.portfolio-section article {
+		min-height: 400px;
+		width: 95%;
+		margin: 2.5%;
 	}
 
 }
