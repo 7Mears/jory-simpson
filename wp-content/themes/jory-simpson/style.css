@@ -1458,7 +1458,8 @@ Portfolio Section
 
 body,
 .site-header,
-.hero-section {
+.hero-section,
+.content .entry {
 	background: #010712;
 }
 
@@ -1467,7 +1468,8 @@ body,
 .hero-section,
 article a:active,
 .portfolio-section .entry-content,
-.portfolio-section .entry-header {
+.portfolio-section .entry-header,
+.content .entry {
 	color: #EEEFF7;
 }
 
