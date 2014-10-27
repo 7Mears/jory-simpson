@@ -239,9 +239,9 @@ h4,
 h5,
 h6 {
 	color: #333;
-	font-family: 'Lato', sans-serif;
-	letter-spacing: 1px;
-	font-weight: 700;
+	font-family: 'LeagueGothic', sans-serif;
+	letter-spacing: 1.25px;
+	font-weight: 400;
 	line-height: 1.2;
 	margin: 0 0 10px;
 }
@@ -1394,10 +1394,6 @@ Portfolio Section
 	float: left;
 	position: relative;
 }
-/*
-.portfolio-section article:nth-child(3n + 2) {
-	margin: 20px;
-}*/
 
 .portfolio-section .entry-image,
 .portfolio-section .entry-header,
@@ -1437,13 +1433,10 @@ Portfolio Section
 }
 
 .portfolio-section .entry-content {
-	top: 25%;
+	top: 75px;
 	padding: 25px;
 }
 
-.portfolio-section .more-link {
-	display: block;
-}
 
 /* ## Portfolio Page
 --------------------------------------------- */
@@ -1458,9 +1451,11 @@ Portfolio Section
 
 body,
 .site-header,
-.hero-section,
+.hero-section {
+	background-color: #101010;
+}
 .content .entry {
-	background: #010712;
+	background-color: #181818;
 }
 
 .site-header,
