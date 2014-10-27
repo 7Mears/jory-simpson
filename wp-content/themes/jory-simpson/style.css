@@ -146,8 +146,8 @@ body {
 	background-color: #3A3F3C;
 	color: #333;
 	font-family: Lato, sans-serif;
-	font-size: 20px;
-	font-weight: 100;
+	font-size: 18px;
+	font-weight: 300;
 	line-height: 1.625;
 	margin: 0;
 }
@@ -179,7 +179,7 @@ textarea:focus,
 }
 
 a {
-	color: #e5554e;
+	color: #961227;
 	text-decoration: none;
 }
 
@@ -240,7 +240,8 @@ h5,
 h6 {
 	color: #333;
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	letter-spacing: 1px;
+	font-weight: 700;
 	line-height: 1.2;
 	margin: 0 0 10px;
 }
@@ -404,7 +405,7 @@ input[type="submit"],
 .footer-widgets input[type="reset"],
 .footer-widgets input[type="submit"],
 .footer-widgets .button {
-	background-color: #e5554e;
+	background-color: #961227;
 	color: #fff;
 }
 
@@ -413,7 +414,7 @@ input:hover[type="button"],
 input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover {
-	background-color: #e5554e;
+	background-color: #961227;
 	color: #fff;
 }
 
@@ -702,7 +703,7 @@ th {
 }
 
 .entry-title a:hover {
-	color: #e5554e;
+	color: #961227;
 }
 
 .widget-title {
@@ -851,7 +852,7 @@ img.alignright,
 }
 
 .enews-widget input[type="submit"] {
-	background-color: #e5554e;
+	background-color: #961227;
 	color: #fff;
 	margin: 0;
 	width: 100%;
@@ -952,7 +953,7 @@ img.alignright,
 	font-size: 16px;
 	line-height: 1;
 	width: 100%;
-        text-align: center;
+  text-align: center;
 }
 
 .site-header .widget-area{
@@ -967,13 +968,13 @@ img.alignright,
 .genesis-nav-menu a {
 	color: #333;
 	display: block;
-	padding: 30px 24px;
+	padding: 0px 20px 0px 20px;
 }
 
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-	color: #e5554e;
+	color: #961227;
 }
 
 .genesis-nav-menu .sub-menu {
@@ -1073,7 +1074,7 @@ img.alignright,
 .nav-primary .genesis-nav-menu a:hover,
 .nav-primary .genesis-nav-menu .current-menu-item > a,
 .nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-	color: #e5554e;
+	color: #961227;
 }
 
 /* ## Secondary Navigation
@@ -1177,7 +1178,7 @@ p.entry-meta {
 
 .archive-pagination li a:hover,
 .archive-pagination .active a {
-	background-color: #e5554e;
+	background-color: #961227;
 }
 
 /* ## Comments
@@ -1362,6 +1363,7 @@ Global
 .site-title {
 	font-family: 'LeagueGothic', sans-serif;
 	font-size: 48px;
+	letter-spacing: 1.5px;
 }
 
 /*
@@ -1406,21 +1408,29 @@ Portfolio Section
 	height: 100%;
 	z-index: 1;
 	top: 0;
-	transition: 0.4s ease;
+	transition: 0.6s ease;
 }
+
 .portfolio-section .entry-image:hover {
 	opacity: 0.1;
 }
 
 .portfolio-section .entry-header {
-	color: #FFF;
 	height: 100%;
 	top: 0;
 }
 
 .portfolio-section .entry-title {
 	padding: 25px;
-	text-align: center;
+	font-size: 24px;
+	position: relative;
+}
+.portfolio-section .entry-title:before {
+	content: "";
+	position: absolute;
+	width: 30px;
+	border-bottom: 3px solid #961227;
+	bottom: 0;
 }
 
 .portfolio-section .entry-content {
@@ -1428,6 +1438,9 @@ Portfolio Section
 	padding: 25px;
 }
 
+.portfolio-section .more-link {
+	display: block;
+}
 
 /* ## Portfolio Page
 --------------------------------------------- */
@@ -1443,14 +1456,15 @@ Portfolio Section
 body,
 .site-header,
 .hero-section {
-	background: #010000;
+	background: #010712;
 }
 
 .site-header,
 .site-header a,
 .hero-section,
 article a:active,
-.portfolio-section .entry-content {
+.portfolio-section .entry-content,
+.portfolio-section .entry-header {
 	color: #EEEFF7;
 }
 
