@@ -1354,6 +1354,11 @@ li.comment {
 Global
 */
 
+/* Social icons */
+.fa-2x {
+	padding-left: 7px;
+}
+
 
 /* ## Front Page
 --------------------------------------------- */
@@ -1383,22 +1388,20 @@ Hero Section
 Portfolio Section
 */
 .portfolio-section article {
-	height: 380px;
-	width: 380px;
-	margin: 20px 0;
+	height: 400px;
+	width: 360px;
+	margin: 20px;
 	float: left;
 	position: relative;
-	border-radius: 5px;
 }
-
+/*
 .portfolio-section article:nth-child(3n + 2) {
 	margin: 20px;
-}
+}*/
 
 .portfolio-section .entry-image,
 .portfolio-section .entry-header,
 .portfolio-section .entry-content {
-	border-radius: 5px;
 	width: 100%;
 	left: 0;
 	position: absolute;
@@ -1504,10 +1507,7 @@ article a:active,
 	.footer-widgets-1 {
 		margin-right: 30px;
 	}
-	/* Portfolio section */
-	.portfolio-section article {
-		margin: 20px;
-	}
+
 }
 
 @media only screen and (max-width: 960px) {
