@@ -56,3 +56,18 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Portfolio Section', 'jsim' ),
 	'description' => __( 'This is the fourth section of the home page.', 'jsim' ),
 ) );
+
+
+//* Removes all Post Meta from post page -JM
+//* http://wpsites.net/web-design/modify-post-info-genesis/
+remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+
+//* Removes post comments and post edit from post page -JM
+add_filter( 'genesis_post_info', 'remove_post_info_exclude_news_category' );
+
+function remove_post_info_exclude_news_category($post_info) {
+if ( is_category('web-design') ) {
+	$post_info = '[post_comments] [post_edit]';
+	return $post_info;
+}
+   }
