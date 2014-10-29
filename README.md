@@ -10,9 +10,6 @@ created:  2014 Oct 20
 jory-simpson theme
 ============
 
-![ScreenShot](https://github.com/7Mears/jory-simpson/blob/master/mockup.png?raw=true "Mockup")
-
-
 ### Colors
 * Header Background: #4F4A42
 * Light Background: #EEEFF7
