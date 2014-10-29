@@ -1459,6 +1459,14 @@ body,
 	background-color: #181818;
 }
 
+input,
+select,
+textarea {
+	border: 0;
+	background-color: #101010;
+	color: #EEEFF7;
+}
+
 .site-header,
 .site-header a,
 .hero-section,
