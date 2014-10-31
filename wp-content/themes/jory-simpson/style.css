@@ -14,7 +14,7 @@
 	License URI: http://www.opensource.org/licenses/gpl-license.php
 */
 
-/* # Table of Contents
+/* # Table of   
 - Imports
 - HTML5 Reset
 	- Baseline Normalize
@@ -243,7 +243,7 @@ h6 {
 	letter-spacing: 1.25px;
 	font-weight: 400;
 	line-height: 1.2;
-	margin: 0 0 10px;
+	//margin: 0 0 10px;
 }
 
 h1 {
@@ -1445,6 +1445,29 @@ Portfolio Section
 
 /* ## Contact Page
 --------------------------------------------- */
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #EEEFF7;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #EEEFF7;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #EEEFF7;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #EEEFF7;
+}
+input,
+select,
+textarea {
+	border: 0;
+	background-color: #181818;
+	color: #EEEFF7;
+	border: 1px solid #999;   
+        width: 600px;
+}
 
 
 /* ## Color
@@ -1457,16 +1480,14 @@ body,
 }
 .content .entry {
 	background-color: #181818;
+        text-align: center;
+        
 }
 
-input,
-select,
-textarea {
-	border: 0;
-	background-color: #181818;
-	color: #EEEFF7;
-	border-bottom: 1px solid #EEEFF7;
+.contact-form-8{
+    margin: 0 auto;
 }
+
 
 .site-header,
 .site-header a,
@@ -1588,7 +1609,8 @@ article a:active,
 }
 
 @media only screen and (max-width: 800px) {
-
+        
+        article{ display: block;}
 	body {
 		font-size: 16px;
 	}
@@ -1625,8 +1647,7 @@ article a:active,
 	.two-fourths,
 	.two-sixths,
 	.two-thirds {
-		margin: 0;
-		width: 100%;
+	width: 100%;
 	}
 
 	.sidebar .widget.enews-widget {
