@@ -71,3 +71,6 @@ if ( is_category('web-design') ) {
 	return $post_info;
 }
    }
+
+//* Adds shortcodes to widgets
+add_filter('widget_text', 'do_shortcode');

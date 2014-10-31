@@ -1387,7 +1387,12 @@ Hero Section
 /*
 Portfolio Section
 */
-.portfolio-section article {
+#portfolio .button,
+#portfolio .price {
+	display: none;
+}
+
+#portfolio li {
 	height: 400px;
 	width: 360px;
 	margin: 20px;
@@ -1395,49 +1400,31 @@ Portfolio Section
 	position: relative;
 }
 
-.portfolio-section .entry-image,
-.portfolio-section .entry-header,
-.portfolio-section .entry-content {
+#portfolio .product img,
+#portfolio h3 {
 	width: 100%;
 	left: 0;
 	position: absolute;
 }
 
-.portfolio-section .entry-image {
+#portfolio .product img {
 	height: 100%;
 	z-index: 1;
 	top: 0;
 	transition: 0.6s ease;
 }
 
-.portfolio-section .entry-image:hover {
+#portfolio .product img:hover {
 	opacity: 0.1;
 }
 
-.portfolio-section .entry-header {
-	height: 100%;
-	top: 0;
+#portfolio h3 {
+	color: #fff;
+	bottom: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
 }
-
-.portfolio-section .entry-title {
-	padding: 25px;
-	font-size: 24px;
-	position: relative;
-}
-
-.portfolio-section .entry-title:before {
-	content: "";
-	position: absolute;
-	width: 30px;
-	border-bottom: 3px solid #961227;
-	bottom: 0;
-}
-
-.portfolio-section .entry-content {
-	top: 75px;
-	padding: 25px;
-}
-
 
 /* ## Portfolio Page
 --------------------------------------------- */
