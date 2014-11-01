@@ -1388,7 +1388,8 @@ Hero Section
 Portfolio Section
 */
 #portfolio .button,
-#portfolio .price {
+#portfolio .price,
+li .description_tab {
 	display: none;
 }
 
@@ -1429,16 +1430,18 @@ Portfolio Section
 /* ## Portfolio Page
 --------------------------------------------- */
 .product_meta,
-.entry-summary .quantity {
-	display: none;
+.entry-summary .quantity,
+.description_tab {
+	display: none !important;
 }
 
-img {
+.woocommerce-page img {
 	width: 100%;
 	display:block;
 	height:auto;
-	margin: 5px;
+	margin-bottom: 25px;
 }
+
 /* ## Contact Page
 --------------------------------------------- */
 ::-webkit-input-placeholder { /* WebKit browsers */
@@ -1484,6 +1487,9 @@ body,
     margin: 0 auto;
 }
 
+.amount {
+	color: #961227;
+}
 
 .site-header,
 .site-header a,
@@ -1491,8 +1497,13 @@ body,
 article a:active,
 .portfolio-section .entry-content,
 .portfolio-section .entry-header,
-.content .entry {
+.content .entry,
+h1,
+h2 {
 	color: #EEEFF7;
+}
+p {
+	color: #777;
 }
 
 /* # Media Queries
