@@ -78,7 +78,7 @@ add_filter('widget_text', 'do_shortcode');
 
 
 //* WooCommerce
-
+//*
 //* Remove the related posts
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
 

@@ -1428,7 +1428,9 @@ Portfolio Section
 
 /* ## Portfolio Page
 --------------------------------------------- */
-
+.product_meta {
+	display: none;
+}
 
 /* ## Contact Page
 --------------------------------------------- */
