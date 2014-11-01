@@ -1433,6 +1433,12 @@ Portfolio Section
 	display: none;
 }
 
+img {
+	width: 100%;
+	display:block;
+	height:auto;
+	margin: 5px;
+}
 /* ## Contact Page
 --------------------------------------------- */
 ::-webkit-input-placeholder { /* WebKit browsers */
@@ -1526,7 +1532,7 @@ article a:active,
 		margin-right: 30px;
 	}
 
-	.portfolio-section article {
+	#portfolio li {
 		min-height: 400px;
 		width: 45%;
 		margin: 2.5%;
@@ -1644,7 +1650,7 @@ article a:active,
 		padding: 40px;
 	}
 
-	.portfolio-section article {
+	#portfolio li {
 		min-height: 400px;
 		width: 95%;
 		margin: 2.5%;
