@@ -1428,7 +1428,8 @@ Portfolio Section
 
 /* ## Portfolio Page
 --------------------------------------------- */
-.product_meta {
+.product_meta,
+.quantity {
 	display: none;
 }
 
