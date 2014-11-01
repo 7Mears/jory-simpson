@@ -74,3 +74,10 @@ if ( is_category('web-design') ) {
 
 //* Adds shortcodes to widgets
 add_filter('widget_text', 'do_shortcode');
+
+
+
+//* WooCommerce
+
+//* Removes the related posts
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);

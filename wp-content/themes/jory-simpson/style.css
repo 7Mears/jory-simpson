@@ -14,7 +14,7 @@
 	License URI: http://www.opensource.org/licenses/gpl-license.php
 */
 
-/* # Table of   
+/* # Table of
 - Imports
 - HTML5 Reset
 	- Baseline Normalize
@@ -1452,7 +1452,7 @@ textarea {
 	border: 0;
 	background-color: #181818;
 	color: #EEEFF7;
-	border: 1px solid #999;   
+	border: 1px solid #999;
         width: 600px;
 }
 
@@ -1468,7 +1468,7 @@ body,
 .content .entry {
 	background-color: #181818;
         text-align: center;
-        
+
 }
 
 .contact-form-8{
@@ -1596,7 +1596,7 @@ article a:active,
 }
 
 @media only screen and (max-width: 800px) {
-        
+
         article{ display: block;}
 	body {
 		font-size: 16px;
