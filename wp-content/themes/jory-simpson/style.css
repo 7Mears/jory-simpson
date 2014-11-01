@@ -1429,7 +1429,7 @@ Portfolio Section
 /* ## Portfolio Page
 --------------------------------------------- */
 .product_meta,
-.quantity {
+.entry-summary .quantity {
 	display: none;
 }
 
