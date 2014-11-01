@@ -76,12 +76,28 @@ if ( is_category('web-design') ) {
 add_filter('widget_text', 'do_shortcode');
 
 
-
-//* WooCommerce
 //*
+//* Everything below is for WooCommerce
+//*
+
+//* Changes product button text to 'Buy' instead of default
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_cart_button_text' );    // 2.1 +
+
+function woo_custom_cart_button_text() {
+
+        return __( 'Buy', 'woocommerce' );
+
+}
 // * Unhook sidebar
 remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10);
 //* Remove the related posts
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
 //* Remove breadcrumbs
 remove_action( 'woocommerce_before_main_content','woocommerce_breadcrumb', 20, 0);
+
+// Remove stylesheets from woocommerce
+add_filter( 'woocommerce_enqueue_styles', 'jk_dequeue_styles' );
+function jk_dequeue_styles( $enqueue_styles ) {
+	unset( $enqueue_styles['woocommerce-general'] );	// Remove the gloss
+	return $enqueue_styles;
+}
