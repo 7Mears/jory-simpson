@@ -156,7 +156,8 @@ textarea {
 	font-size: 18px;
 	font-weight: 300;
 	padding: 16px;
-	width: 600px;
+	width: 100%;
+	text-align: center;
 }
 
 input:focus,
@@ -200,6 +201,18 @@ input:hover[type="submit"],
 	display: inline-block;
 }
 
+/*
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ Change this to correct id # on live site
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ */
+.page-id-8 .content {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
 /* # Structure and Layout
 ---------------------------------------------------------------------------------------------------- */
 
