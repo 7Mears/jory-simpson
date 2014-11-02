@@ -58,10 +58,8 @@ function jsim_body_class( $classes ) {
 
 function jsim_home_widgets() {
 
-	echo '<div id="home-widgets" class="home-widgets">';
-
 	genesis_widget_area( 'portfolio-section', array(
-		'before' => '<div id="portfolio" class="portfolio-section wrap">',
+		'before' => '<div id="portfolio" class="wrap">',
 		'after'  => '</div>',
 	) );
 
