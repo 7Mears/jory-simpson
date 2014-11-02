@@ -26,7 +26,7 @@ add_action( 'genesis_meta', 'jsim_home_genesis_meta' );
  */
 function jsim_home_genesis_meta() {
 
-	if ( is_active_sidebar( 'hero-section' ) || is_active_sidebar( 'portfolio-section' ) ) {
+	if ( is_active_sidebar( 'portfolio-section' ) ) {
 
 		//* Force full width content layout
 		add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
@@ -56,21 +56,10 @@ function jsim_body_class( $classes ) {
 
 }
 
-function jsim_home_featured_widget() {
-
-	genesis_widget_area( 'hero-section', array(
-		'before' => '<div id="hero" class="hero-section"><div class="wrap">',
-		'after'  => '</div></div>',
-	) );
-
-}
-
 function jsim_home_widgets() {
 
-	echo '<div id="home-widgets" class="home-widgets">';
-
 	genesis_widget_area( 'portfolio-section', array(
-		'before' => '<div id="portfolio" class="portfolio-section wrap">',
+		'before' => '<div id="portfolio" class="wrap">',
 		'after'  => '</div>',
 	) );
 
