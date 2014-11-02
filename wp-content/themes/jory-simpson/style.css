@@ -231,19 +231,16 @@ li .description_tab {
 	margin: 20px;
 	float: left;
 	position: relative;
-}
-
-#portfolio .product img,
-#portfolio h3 {
-	width: 100%;
-	left: 0;
-	position: absolute;
+	overflow: hidden;
 }
 
 #portfolio .product img {
-	height: 100%;
+	min-height: 100%;
+	min-width: 100%;
 	z-index: 1;
+	position: absolute;
 	top: 0;
+	left: 0;
 	transition: 1s ease;
 }
 
@@ -254,7 +251,9 @@ li .description_tab {
 #portfolio h3 {
 	color: #FFF;
 	bottom: 50%;
+	left: 0;
 	width: 100%;
+	position: absolute;
 	text-align: center;
 	font-size: 30px;
 }
