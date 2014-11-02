@@ -123,7 +123,7 @@ h5,
 h6 {
 	color: #666;
 	font-family: 'LeagueGothic', sans-serif;
-	letter-spacing: 1.25px;
+
 	font-weight: 400;
 	line-height: 1.2;
 }
@@ -183,6 +183,7 @@ input[type="submit"],
 	font-weight: 300;
 	padding: 16px 24px;
 	width: auto;
+	transition: 0.6s ease;
 }
 
 button:hover,
@@ -261,7 +262,7 @@ li .description_tab {
 --------------------------------------------- */
 .product_meta,
 .entry-summary .quantity,
-.description_tab {
+.tabs {
 	display: none;
 }
 
@@ -272,6 +273,14 @@ li .description_tab {
 	margin-bottom: 25px;
 }
 
+.product_title {
+	margin-top: 0;
+}
+
+.amount {
+	color: #999;
+	font-size: 24px;
+}
 /* 8. WooCommerce
 --------------------------------------------- */
 .single_add_to_cart_button.button {
