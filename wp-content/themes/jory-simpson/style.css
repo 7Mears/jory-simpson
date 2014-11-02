@@ -305,14 +305,8 @@ li .description_tab {
 /* 8. WooCommerce
 --------------------------------------------- */
 .single_add_to_cart_button.button {
-<<<<<<< .merge_file_a07004
-	background-color: #181818;
-    margin-top: 50px;
-
-=======
 	background-color: #1D2326;
 	margin-top: 50px;
->>>>>>> .merge_file_a04160
 }
 .single_add_to_cart_button.button:hover {
 	background-color: #611427;
@@ -349,7 +343,7 @@ li .description_tab {
 }
 
  .product-remove a{
-  
+
 }
 
 
@@ -361,6 +355,7 @@ li .description_tab {
     width: 50px;
     text-align: center;
 }
+
 .product-quantity input[type='number']{
    border: none;
 }
@@ -376,9 +371,7 @@ li .description_tab {
     text-align: center;
 }
 
-
 .coupon {
-
     display: none;
 }
 
