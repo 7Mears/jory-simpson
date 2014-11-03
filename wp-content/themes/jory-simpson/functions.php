@@ -47,11 +47,6 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 
 //* Register widget areas
 genesis_register_sidebar( array(
-	'id'          => 'hero-section',
-	'name'        => __( 'Hero Section', 'jsim' ),
-	'description' => __( 'This is the first section of the home page.', 'jsim' ),
-) );
-genesis_register_sidebar( array(
 	'id'          => 'portfolio-section',
 	'name'        => __( 'Portfolio Section', 'jsim' ),
 	'description' => __( 'This is the fourth section of the home page.', 'jsim' ),

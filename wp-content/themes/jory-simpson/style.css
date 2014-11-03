@@ -68,8 +68,8 @@ body {
 	color: #FFF;
 	font-family: Lato, sans-serif;
 	font-size: 18px;
-	font-weight: 300;
-	line-height: 1.625;
+	font-weight: 400;
+	line-height: 1.6;
 }
 
 a {
@@ -123,7 +123,7 @@ h5,
 h6 {
 	color: #666;
 	font-family: 'LeagueGothic', sans-serif;
-	letter-spacing: 1.25px;
+
 	font-weight: 400;
 	line-height: 1.2;
 }
@@ -176,14 +176,14 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-	background-color: #333;
-	border: none;
+	border: 1px solid #FFF;
 	color: #FFF;
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 300;
 	padding: 16px 24px;
 	width: auto;
+	transition: 0.6s ease;
 }
 
 button:hover,
@@ -231,19 +231,16 @@ li .description_tab {
 	margin: 20px;
 	float: left;
 	position: relative;
-}
-
-#portfolio .product img,
-#portfolio h3 {
-	width: 100%;
-	left: 0;
-	position: absolute;
+	overflow: hidden;
 }
 
 #portfolio .product img {
-	height: 100%;
+	min-height: 100%;
+	min-width: 100%;
 	z-index: 1;
+	position: absolute;
 	top: 0;
+	left: 0;
 	transition: 1s ease;
 }
 
@@ -254,7 +251,9 @@ li .description_tab {
 #portfolio h3 {
 	color: #FFF;
 	bottom: 50%;
+	left: 0;
 	width: 100%;
+	position: absolute;
 	text-align: center;
 	font-size: 30px;
 }
@@ -263,7 +262,7 @@ li .description_tab {
 --------------------------------------------- */
 .product_meta,
 .entry-summary .quantity,
-.description_tab {
+.tabs {
 	display: none;
 }
 
@@ -274,9 +273,23 @@ li .description_tab {
 	margin-bottom: 25px;
 }
 
+.product_title {
+	margin-top: 0;
+}
+
+.amount {
+	color: #999;
+	font-size: 24px;
+}
 /* 8. WooCommerce
 --------------------------------------------- */
-
+.single_add_to_cart_button.button {
+	background-color: #181818;
+	margin-top: 50px;
+}
+.single_add_to_cart_button.button:hover {
+	background-color: #961227;
+}
 /* 9. WordPress
 --------------------------------------------- */
 
@@ -338,9 +351,6 @@ img.alignright,
 	margin-bottom: 0;
 }
 
-.sticky {
-}
-
 /* 10. Title Area
 --------------------------------------------- */
 
@@ -348,6 +358,7 @@ img.alignright,
 	font-family: 'LeagueGothic', sans-serif;
 	font-size: 48px;
 	letter-spacing: 1.5px;
+	height: 25px;
 }
 
 .site-title a {
@@ -383,6 +394,7 @@ img.alignright,
 
 .genesis-nav-menu a {
 	padding: 0 20px;
+	color: #FFF;
 }
 
 .genesis-nav-menu a:hover,
@@ -428,7 +440,6 @@ img.alignright,
 	.wrap {
 		max-width: 960px;
 	}
-
 
 	.footer-widgets-1,
 	.footer-widgets-2,
