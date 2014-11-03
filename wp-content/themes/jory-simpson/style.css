@@ -257,6 +257,7 @@ li .description_tab {
 	top: 0;
 	left: 0;
 	transition: 1s ease;
+	border: 1px solid #1D2326; /* this fixes webkit bug */
 }
 
 #portfolio .product img:hover {
@@ -287,6 +288,7 @@ li .description_tab {
 	height:auto;
 	margin-bottom: 25px;
 	transition: 0.4s;
+	border: 1px solid #1D2326; /* this fixes webkit bug */
 }
 .woocommerce-page img:hover {
 	opacity: 0.5;
