@@ -285,11 +285,84 @@ li .description_tab {
 --------------------------------------------- */
 .single_add_to_cart_button.button {
 	background-color: #181818;
-	margin-top: 50px;
+    margin-top: 50px;
+
 }
 .single_add_to_cart_button.button:hover {
 	background-color: #961227;
 }
+
+.product-quantity input{
+    width: 40px;
+}
+
+.shop_table.cart {
+    table-layout: fixed;
+}
+
+.product-remove,
+.product-thumbnail,
+.product-name,
+.product-price,
+.product-quantity,
+.product-subtotal{
+
+    text-align: center;
+}
+
+.product-name{
+    width: 500px;
+    text-align: left;
+    padding-left: 50px;
+}
+.product-remove{
+    width: 50px;
+    font-size: 30px;
+    padding: 0;
+    border: 1px red;
+}
+
+ .product-remove a{
+  
+}
+
+
+.product-subtotal{
+    width: 10px;
+}
+
+.product-quantity{
+    width: 50px;
+    text-align: center;
+}
+.product-quantity input[type='number']{
+   border: none;
+}
+
+.product-quantity input[type='button']{
+    margin: 0;
+    padding: 0;
+
+}
+
+.product-price{
+    width: 10px;
+    text-align: center;
+}
+
+
+.coupon {
+
+    display: none;
+}
+
+/* 8. 3 Cart Totals
+--------------------------------------------- */
+.cart_totals{
+    text-align: right;
+
+}
+
 /* 9. WordPress
 --------------------------------------------- */
 
@@ -377,11 +450,10 @@ img.alignright,
 
 /* 11. Site Navigation
 ---------------------------------------------------------------------------------------------------- */
-
 .genesis-nav-menu {
 	clear: both;
 	width: 100%;
-  text-align: center;
+    text-align: center;
 }
 
 .site-header .widget-area{
