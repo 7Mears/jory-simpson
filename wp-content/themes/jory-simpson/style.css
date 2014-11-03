@@ -181,7 +181,7 @@ input[type="submit"],
 	border: 1px solid #DDDCC5;
 	color: #DDDCC5;
 	cursor: pointer;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 	padding: 16px 24px;
 	width: auto;
@@ -206,6 +206,9 @@ input:hover[type="submit"],
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Change this to correct id # on live site
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+also change the id # in
+@media only screen and (max-width: 800px)
 
  */
 .page-id-8 .content {
@@ -594,6 +597,10 @@ img.alignright,
 		min-height: 400px;
 		width: 95%;
 		margin: 2.5%;
+	}
+
+	.page-id-8 .content {
+		width: 100%;
 	}
 
 }
