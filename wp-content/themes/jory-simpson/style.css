@@ -67,9 +67,10 @@ body {
 	background-color: #1D2326;
 	color: #DDDCC5;
 	font-family: Lato, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 	line-height: 1.625;
+	letter-spacing: 0.7px;
 }
 
 a {
@@ -133,7 +134,7 @@ h1 { font-size: 36px; }
 h2 { font-size: 30px; }
 h3 { font-size: 24px; }
 h4 { font-size: 20px; }
-h5 { font-size: 18px; }
+h5 { font-size: 20px; }
 h6 { font-size: 16px; }
 
 /* 3. Objects
@@ -153,8 +154,6 @@ textarea {
 	background-color: #1D2326;
 	border: 1px solid #6A6A61;
 	color: #DDDCC5;
-	font-size: 18px;
-	font-weight: 300;
 	padding: 16px;
 	width: 100%;
 	text-align: center;
@@ -181,8 +180,7 @@ input[type="submit"],
 	border: 1px solid #DDDCC5;
 	color: #DDDCC5;
 	cursor: pointer;
-	font-size: 18px;
-	font-weight: 300;
+
 	padding: 16px 24px;
 	width: auto;
 	transition: 0.4s ease;
@@ -304,6 +302,11 @@ li .description_tab {
 }
 /* 8. WooCommerce
 --------------------------------------------- */
+.payment_method_paypal img,
+.coupon {
+	display: none;
+}
+
 .single_add_to_cart_button.button {
 	background-color: #1D2326;
 	margin-top: 50px;
@@ -342,18 +345,12 @@ li .description_tab {
     border: 1px red;
 }
 
- .product-remove a{
-
-}
-
-
 .product-subtotal{
     width: 10px;
 }
 
 .product-quantity{
     width: 50px;
-    text-align: center;
 }
 
 .product-quantity input[type='number']{
@@ -371,9 +368,6 @@ li .description_tab {
     text-align: center;
 }
 
-.coupon {
-    display: none;
-}
 
 /* 8. 3 Cart Totals
 --------------------------------------------- */
@@ -453,10 +447,6 @@ img.alignright,
 	height: 25px;
 }
 
-.site-title a {
-	color: #DDDCC5;
-}
-
 .title-area {
 	width: 100%;
   text-align: center;
@@ -483,11 +473,13 @@ img.alignright,
 	display: inline-block;
 }
 
+.site-title a,
 .genesis-nav-menu a {
 	padding: 0 20px;
 	color: #DDDCC5;
 }
 
+.site-title a:hover,
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a {
 	color: #611427;
@@ -501,7 +493,7 @@ img.alignright,
 	padding-top: 40px;
 }
 .footer-widgets .wrap {
-	border-top: 1px solid #6A6A61;
+	border-top: 2px solid #6A6A61;
 }
 
 .footer-widgets-1,
