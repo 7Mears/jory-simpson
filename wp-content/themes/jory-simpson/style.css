@@ -290,6 +290,7 @@ li .description_tab {
 	transition: 0.4s;
 	border: 1px solid #1D2326; /* this fixes webkit bug */
 }
+
 .woocommerce-page img:hover {
 	opacity: 0.5;
 }
@@ -302,6 +303,7 @@ li .description_tab {
 	color: #6A6A61;
 	font-size: 24px;
 }
+
 /* 8. WooCommerce
 --------------------------------------------- */
 .payment_method_paypal img,
@@ -313,12 +315,13 @@ li .description_tab {
 	background-color: #1D2326;
 	margin-top: 50px;
 }
+
 .single_add_to_cart_button.button:hover {
 	background-color: #DDDCC5;
 	color: #611427;
 }
 
-.product-quantity input{
+.product-quantity input {
     width: 40px;
 }
 
@@ -331,8 +334,7 @@ li .description_tab {
 .product-name,
 .product-price,
 .product-quantity,
-.product-subtotal{
-
+.product-subtotal {
     text-align: center;
 }
 
@@ -341,6 +343,7 @@ li .description_tab {
     text-align: left;
     padding-left: 50px;
 }
+
 .product-remove{
     width: 50px;
     font-size: 30px;
