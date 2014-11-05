@@ -29,7 +29,7 @@ function afn_enqueue_awesome() {
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
 
 //* Add new image sizes
-add_image_size( 'portfolio-section', 360, '400', TRUE );
+add_image_size( 'portfolio-section', 800, '800', TRUE );
 
 //* Add viewport meta tag for mobile browsers
 add_theme_support( 'genesis-responsive-viewport' );
