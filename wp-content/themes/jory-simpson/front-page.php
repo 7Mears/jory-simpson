@@ -40,9 +40,6 @@ function jsim_home_genesis_meta() {
 		//* Remove the default Genesis loop
 		remove_action( 'genesis_loop', 'genesis_do_loop' );
 
-		//* Add home featured widget
-		add_action( 'genesis_after_header', 'jsim_home_featured_widget', 1 );
-
 		//* Add home widgets
 		add_action( 'genesis_before_footer', 'jsim_home_widgets', 5 );
 

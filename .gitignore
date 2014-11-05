@@ -36,3 +36,12 @@ sp-config.php
 
 wp-config.php
 .htaccess
+.idea/.name
+.idea/deployment.xml
+.idea/encodings.xml
+.idea/jory-simpson.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+.idea/workspace.xml
