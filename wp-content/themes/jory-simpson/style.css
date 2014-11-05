@@ -307,26 +307,34 @@ li .description_tab {
 /* 8. WooCommerce
 --------------------------------------------- */
 .payment_method_paypal img,
-.coupon {
+.coupon,
+.plus,
+.minus {
 	display: none;
 }
 
-.single_add_to_cart_button.button {
+h1[itemprop='headline']{
+
+}
+
+.single_add_to_cart_button.button,
+.shipping_calculator .button {
 	background-color: #1D2326;
 	margin-top: 50px;
 }
 
-.single_add_to_cart_button.button:hover {
+.single_add_to_cart_button.button:hover,
+.shipping-calculator-form .button:hover {
 	background-color: #DDDCC5;
 	color: #611427;
 }
 
-.product-quantity input {
-    width: 40px;
+.shipping_calculator .button{
+	float: right;
 }
 
-.shop_table.cart {
-    table-layout: fixed;
+.product-quantity input{
+	width: 40px;
 }
 
 .product-remove,
@@ -335,51 +343,80 @@ li .description_tab {
 .product-price,
 .product-quantity,
 .product-subtotal {
-    text-align: center;
-}
-
-.product-name{
-    width: 500px;
-    text-align: left;
-    padding-left: 50px;
+	text-align: center;
 }
 
 .product-remove{
-    width: 50px;
-    font-size: 30px;
-    padding: 0;
-    border: 1px red;
+  width: 50px;
+  font-size: 30px;
+  padding: 0;
 }
 
-.product-subtotal{
-    width: 10px;
+.product-thumbnail {
+  width: 300px;
 }
 
-.product-quantity{
-    width: 50px;
-}
-
-.product-quantity input[type='number']{
-   border: none;
-}
-
-.product-quantity input[type='button']{
-    margin: 0;
-    padding: 0;
-
+.product-name{
+  width: 400px;
+  text-align: left;
+  padding-left: 50px;
 }
 
 .product-price{
-    width: 10px;
-    text-align: center;
+  width: 150px;
+  text-align: center;
 }
+
+.product-quantity{
+  width: 150px;
+}
+
+.product-quantity{
+  width: 150px;
+}
+
+.product-quantity input[type='number'] {
+  border: none;
+}
+
+.cart_item {
+	border: 1px red;
+	}
 
 
 /* 8. 3 Cart Totals
 --------------------------------------------- */
-.cart_totals{
-    text-align: right;
+.cart_totals {
+  width: 325px!important;
+  text-align: right;
+}
 
+.shipping-calculator-form{
+  margin-right: 20px;
+}
+
+
+.cart_totals h2, .shipping_calculator h2 {
+  margin-right: 25px;
+  margin-top: 70px;
+  margin-bottom: 8px;
+}
+
+ input[name="update_cart"] {
+  margin-right: 15px;
+ }
+
+.shipping_calculator h2{
+  text-align: right;
+  margin-bottom: 25px;
+}
+
+ .cart-totals th{
+  padding: 0 20px;
+}
+
+.cart_totals td{
+  padding-left: 30px;
 }
 
 /* 9. WordPress
@@ -593,5 +630,22 @@ img.alignright,
 	.page-id-8 .content {
 		width: 100%;
 	}
+
+    .cart-collaterals{
+       text-align:  center;
+    }
+
+    .cart_totals{
+        width: 100%!important;
+        margin-left: 20%;
+    }
+
+    .cart_totals td{
+        padding-left: 100px;
+    }
+
+    .shop_table tr:last-child {
+        padding-top: 20px;
+    }
 
 }
