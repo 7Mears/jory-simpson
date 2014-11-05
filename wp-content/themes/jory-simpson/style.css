@@ -67,7 +67,7 @@ body {
 	background-color: #1D2326;
 	color: #DDDCC5;
 	font-family: Lato, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 1.625;
 	letter-spacing: 0.5px;
@@ -133,9 +133,9 @@ h6 {
 h1 { font-size: 36px; }
 h2 { font-size: 30px; }
 h3 { font-size: 24px; }
-h4 { font-size: 16px; }
-h5 { font-size: 16px; }
-h6 { font-size: 16px; }
+h4 { font-size: 18px; }
+h5 { font-size: 18px; }
+h6 { font-size: 18px; }
 
 /* 3. Objects
 --------------------------------------------- */
@@ -177,10 +177,9 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-	border: 1px solid #DDDCC5;
+	border: 2px solid #DDDCC5;
 	color: #DDDCC5;
 	cursor: pointer;
-
 	padding: 16px 24px;
 	width: auto;
 	transition: 0.4s ease;
@@ -219,7 +218,6 @@ also change the id # in
 
 /* 5. Site Containers
 --------------------------------------------- */
-
 .site-inner,
 .wrap {
 	margin: 0 auto;
@@ -241,9 +239,9 @@ li .description_tab {
 }
 
 #portfolio li {
-	height: 400px;
-	width: 360px;
-	margin: 20px;
+	height: 280px;
+	width: 280px;
+	margin: 20px 10px;
 	float: left;
 	position: relative;
 	overflow: hidden;
@@ -256,8 +254,9 @@ li .description_tab {
 	position: absolute;
 	top: 0;
 	left: 0;
-	transition: 1s ease;
+	transition: 0.6s ease;
 	border: 1px solid #1D2326; /* this fixes webkit bug */
+	border-radius: 10px;
 }
 
 #portfolio .product img:hover {
@@ -482,7 +481,6 @@ img.alignright,
 
 /* 10. Title Area
 --------------------------------------------- */
-
 .site-title {
 	font-family: 'LeagueGothic', sans-serif;
 	font-size: 48px;
@@ -498,7 +496,6 @@ img.alignright,
 .header-full-width .title-area {
 	width: 100%;
 }
-
 
 /* 11. Site Navigation
 ---------------------------------------------------------------------------------------------------- */
@@ -612,7 +609,7 @@ img.alignright,
 @media only screen and (max-width: 800px) {
 
 	body {
-		font-size: 16px;
+		font-size: 18px;
 	}
 
 	.site-inner,
