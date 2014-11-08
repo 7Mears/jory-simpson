@@ -308,33 +308,41 @@ li .description_tab {
 .payment_method_paypal img,
 .coupon,
 .plus,
-.minus,
-.woocommerce-message{
+.minus{
 	display: none;
 }
 
 .woocommerce-message  a{
     margin-right: 40%;
+    margin-bottom: 30px;
+}
+
+/* 8. 2 Main Product Table /
+//////////////////////// */
+.shop_table tr{
+    border: 3px solid  #6A6A61;
+    padding: 10px 0px;
+}
+
+.shop_table > thead > tr:first-child,
+.shop_table > tbody > tr:last-child {
+    border: none;
+}
+
+.shop_table > tbody > tr:last-child{
+    padding-top: 100px;
 }
 
 .single_add_to_cart_button.button,
 .shipping_calculator .button {
-	background-color: #1D2326;
-	margin-top: 50px;
+    background-color: #1D2326;
+    margin-top: 50px;
 }
 
 .single_add_to_cart_button.button:hover,
 .shipping-calculator-form .button:hover {
 	background-color: #DDDCC5;
 	color: #611427;
-}
-
-.shipping_calculator .button{
-	float: right;
-}
-
-.product-quantity input{
-	width: 40px;
 }
 
 .product-remove,
@@ -349,17 +357,20 @@ li .description_tab {
 .product-remove{
   width: 50px;
   font-size: 30px;
+    font-weight: bold;
   padding: 0;
 }
 
 .product-thumbnail {
   width: 300px;
+    padding-top: 25px;
 }
 
 .product-name{
   width: 400px;
   text-align: left;
   padding-left: 50px;
+    font-weight: bold;
 }
 
 .product-price{
@@ -371,44 +382,35 @@ li .description_tab {
   width: 150px;
 }
 
-.product-quantity{
-  width: 150px;
-}
-
 .product-quantity input[type='number'] {
   border: none;
+    width: 40px;
 }
 
-.cart_item {
-	border: 1px red;
-	}
+.product-subtotal{
+    padding-right: 17px;
+}
 
+input[name="update_cart"] {
+    margin-right: 15px;
+}
 
-/* 8. 3 Cart Totals
---------------------------------------------- */
+.actions input[name='proceed']{
+    margin-right: 25px;
+    margin-top:25px;
+}
+
+/* 8. 3 totals /
+//////////////////////// */
 .cart_totals {
   width: 325px!important;
   text-align: right;
 }
 
-.shipping-calculator-form{
-  margin-right: 20px;
-}
-
-
 .cart_totals h2, .shipping_calculator h2 {
   margin-right: 25px;
   margin-top: 70px;
   margin-bottom: 8px;
-}
-
- input[name="update_cart"] {
-  margin-right: 15px;
- }
-
-.shipping_calculator h2{
-  text-align: right;
-  margin-bottom: 25px;
 }
 
  .cart-totals th{
@@ -417,6 +419,21 @@ li .description_tab {
 
 .cart_totals td{
   padding-left: 30px;
+}
+
+/* 8. 4 shipping Calculator
+//////////////////////// */
+.shipping-calculator-form{
+    margin-right: 20px;
+}
+
+.shipping_calculator h2{
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.shipping_calculator .button{
+    float: right;
 }
 
 /* 9. WordPress
@@ -562,9 +579,8 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1200px) {
-
-    .actions{
-       padding-top: 30px;
+    .shop_table tbody{
+        border: none;
     }
 
 	.site-inner,
@@ -593,6 +609,16 @@ img.alignright,
 
 @media only screen and (max-width: 960px) {
 
+    .shop_table tr {
+        border: none;
+        padding: 10px 0px;
+
+    }
+
+    .actions input[name='proceed']{
+        margin: 0;
+    }
+
 	.site-inner,
 	.wrap {
 		max-width: 800px;
@@ -612,6 +638,7 @@ img.alignright,
 }
 
 @media only screen and (max-width: 800px) {
+
 
 	body {
 		font-size: 18px;
