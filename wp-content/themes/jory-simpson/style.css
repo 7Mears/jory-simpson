@@ -314,7 +314,19 @@ li .description_tab {
 
 .woocommerce-message  a{
     margin-right: 40%;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.single_add_to_cart_button.button,
+.shipping_calculator .button {
+    background-color: #1D2326;
+    margin-top: 50px;
+}
+
+.single_add_to_cart_button.button:hover,
+.shipping-calculator-form .button:hover {
+    background-color: #DDDCC5;
+    color: #611427;
 }
 
 /* 8. 2 Main Product Table /
@@ -331,18 +343,6 @@ li .description_tab {
 
 .shop_table > tbody > tr:last-child{
     padding-top: 100px;
-}
-
-.single_add_to_cart_button.button,
-.shipping_calculator .button {
-    background-color: #1D2326;
-    margin-top: 50px;
-}
-
-.single_add_to_cart_button.button:hover,
-.shipping-calculator-form .button:hover {
-	background-color: #DDDCC5;
-	color: #611427;
 }
 
 .product-remove,
