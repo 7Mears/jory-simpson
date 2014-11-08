@@ -308,12 +308,13 @@ li .description_tab {
 .payment_method_paypal img,
 .coupon,
 .plus,
-.minus {
+.minus,
+.woocommerce-message{
 	display: none;
 }
 
-h1[itemprop='headline']{
-
+.woocommerce-message  a{
+    margin-right: 40%;
 }
 
 .single_add_to_cart_button.button,
@@ -561,6 +562,10 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1200px) {
+
+    .actions{
+       padding-top: 30px;
+    }
 
 	.site-inner,
 	.wrap {
