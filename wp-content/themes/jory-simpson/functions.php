@@ -21,6 +21,15 @@ function afn_enqueue_awesome() {
 	}
 }
 
+add_action( 'wp_enqueue_scripts', 'addJS' );
+function addJS() {
+    wp_enqueue_script(
+        'jsimJS',
+        get_template_directory_uri() . '/js/jsim.js',
+        array('jquery') 
+    );
+}
+
 //* Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
 
