@@ -10,14 +10,10 @@ define( 'CHILD_THEME_VERSION', '1.0' );
 //* Enqueue Google Fonts
 add_action( 'wp_enqueue_scripts', 'jsim_google_fonts' );
 function jsim_google_fonts() {
-
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:100,400,700', array(), 1.0 );
-
 }
 
-
 //* Enqueue and Load Font Awesome
-
 add_action( 'wp_enqueue_scripts', 'afn_enqueue_awesome' );
 function afn_enqueue_awesome() {
 	if ( !is_admin() ) {
@@ -52,7 +48,6 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the fourth section of the home page.', 'jsim' ),
 ) );
 
-
 //* Removes all Post Meta from post page -JM
 //* http://wpsites.net/web-design/modify-post-info-genesis/
 remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
@@ -79,9 +74,7 @@ add_filter('widget_text', 'do_shortcode');
 add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_cart_button_text' );    // 2.1 +
 
 function woo_custom_cart_button_text() {
-
         return __( 'Buy', 'woocommerce' );
-
 }
 // * Unhook sidebar
 remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10);

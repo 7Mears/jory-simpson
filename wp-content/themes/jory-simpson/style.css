@@ -306,7 +306,6 @@ li .description_tab {
 /* 8. WooCommerce
 --------------------------------------------- */
 .payment_method_paypal img,
-.coupon,
 .plus,
 .minus{
 	display: none;
@@ -333,9 +332,21 @@ li .description_tab {
 //////////////////////// */
 .shop_table tr{
     border: 3px solid  #6A6A61;
-    padding: 10px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
+.pp_gallery{
+    display: none!important;
+}
+
+.attachment-shop_thumbnail img{
+ text-align: center;
+}
+.shoptable td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .shop_table > thead > tr:first-child,
 .shop_table > tbody > tr:last-child {
     border: none;
