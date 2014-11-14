@@ -20,7 +20,7 @@ function afn_enqueue_awesome() {
 		wp_enqueue_style( 'afn-font-awesome', get_bloginfo( 'stylesheet_directory' ) . '/css/font-awesome.min.css', array(), '4.0.3' );
 	}
 }
-
+//* Enqueue Javascript
 add_action( 'wp_enqueue_scripts', 'addJS' );
 function addJS() {
     wp_enqueue_script(
