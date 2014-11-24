@@ -240,9 +240,9 @@ li .description_tab {
 
 #portfolio li {
 	height: 280px;
-	width: 280px;
-	margin: 20px 10px;
+	width: 23%;
 	float: left;
+	margin: 1%;
 	position: relative;
 	overflow: hidden;
 }
